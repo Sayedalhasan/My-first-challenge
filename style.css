@@ -108,4 +108,169 @@ main {
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+ /* main 2nd */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f6f8ff;
+}
 
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.stats {
+  background-color: #e8eaff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+
+.stat-numbers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-numbers div {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.stat-numbers span {
+  font-size: 14px;
+  color: #333;
+}
+
+.testimonials {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonials h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.preview {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.preview h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.preview img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #4338ca;
+}
+
+.contact {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  resize: none;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+  color: #6b7280;
+  margin-top: 60px;
+}
+
+.footer .logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
+}
